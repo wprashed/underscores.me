@@ -153,3 +153,8 @@ function underscoresme_get_contributors() {
 
 	return (array) $contributors;
 }
+
+function theme_name_enqueue_styles() {
+    wp_enqueue_style('theme-name-style', get_stylesheet_uri());
+}
+add_action('wp_enqueue_scripts', 'theme_name_enqueue_styles');
