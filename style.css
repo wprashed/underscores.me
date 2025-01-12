@@ -1108,6 +1108,12 @@ img.size-full {
 #content .gallery-columns-4 .gallery-item img {
 }
 
+/* Full-Width Template */
+.full-width {
+    max-width: 100%;
+    padding: 0 20px;
+}
+
 /* Make sure embeds and iframes fit their containers */
 embed,
 iframe,
